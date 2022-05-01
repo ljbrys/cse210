@@ -26,7 +26,8 @@ def main():
             whos_turn = 'x'
         
         is_no_winner = is_game_won(board)
-        draw = is_game_draw
+        draw = is_game_draw(board)
+        #print("made it to line 30")
         if (draw):
             is_no_winner = False
 
